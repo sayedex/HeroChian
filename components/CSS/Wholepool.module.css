@@ -1,0 +1,31 @@
+#dropdown{
+    position: absolute;
+    background: #174965;
+    width: 100%;
+    left: 0;
+    top: 115%;
+    border-radius: 10px;
+   
+}
+#dropdown li{
+    padding: 1rem;
+}
+#dropdown li:hover{
+    background: #222222;
+}
+
+#dropdown li:last-child:hover{
+    border-radius: 0px 0px 10px 10px;
+}
+
+#dropdown li:first-child:hover{
+    border-radius: 10px 10px 0px 0px;
+}
+#Pool_selector{
+    background: #0d76b2;
+    border-radius: 10px;
+}
+#active{
+    background: #1a272ed4;
+    border-radius: 10px;
+}

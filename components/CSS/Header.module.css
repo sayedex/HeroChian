@@ -1,0 +1,51 @@
+.mainheader{
+
+}
+.site_logo{
+
+}
+.Account_info{
+    
+}
+#connect{
+    /* From https://css.glass */
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+width: fit-content;
+    /* float: right;
+    display: flex-1; */
+}
+#dropdown_manu{
+    position: absolute;
+    background: #272727;
+    padding: 1rem;
+    left: -28%;
+    border-radius: 11px;
+    top: 140%;
+    width: 100%;
+    z-index: 10 !important;
+}
+#dropdown_manu:before {
+    content: "";
+    position: absolute;
+    background-color: #272727;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    right: 33px;
+    transform: rotate(45deg);
+}
+
+#mobile_manu{
+    position: fixed;
+    width: 100%;
+    display: block;
+    height: 100%;
+    left: 0;
+    /* text-align: center; */
+    background: #06060a;
+    top: 0;
+    z-index: 1;
+}

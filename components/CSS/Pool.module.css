@@ -1,0 +1,11 @@
+#stakeToken{
+    position: absolute;
+    top: 31px;
+    left: 19px;
+}
+#date{
+    color: wheat;
+    background: #704a12;
+    border-radius: 28px;
+    padding: 0.4rem;
+}

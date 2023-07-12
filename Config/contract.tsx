@@ -1,0 +1,2 @@
+export const MARKET_CONTRACT = "0xaBC26Db66AaA555263f7e9ebA21d85C1D0E2B182"
+export const WETH = "0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa"

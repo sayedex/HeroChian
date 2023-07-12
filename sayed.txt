@@ -1,0 +1,6 @@
+//auto refresh
+//not showing nft..
+//close after bid..
+/Popup for Bid..
+//approve disbled..
+

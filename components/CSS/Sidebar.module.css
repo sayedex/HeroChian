@@ -1,0 +1,6 @@
+#sidebar{
+    background: #2e2e2e;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+}
