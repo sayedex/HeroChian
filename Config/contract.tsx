@@ -1,2 +1,9 @@
-export const MARKET_CONTRACT = "0xaBC26Db66AaA555263f7e9ebA21d85C1D0E2B182"
-export const WETH = "0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa"
+export const MARKET_CONTRACT = "0x054c46B0fF9b21F879625518Df56f6F3867416c1"
+export const WETH = "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
+
+ const chian = {
+    goerli: "goerli",
+    eth: "eth",
+  };
+
+  export const ChainID = chian.goerli;
