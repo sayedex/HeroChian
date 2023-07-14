@@ -32,8 +32,6 @@ type props = {
   which: String;
 };
 const NftCard = ({ nft, which }: props) => {
-
-
   const { account, active, library } = useWeb3React();
   const web3reactContext = useWeb3React();
 
@@ -76,8 +74,6 @@ const NftCard = ({ nft, which }: props) => {
     setLoading(false);
     router.push("/Mynft/NFT");
   };
-
-
 
   return (
     <div
@@ -125,8 +121,7 @@ const NftCard = ({ nft, which }: props) => {
           {/* name  */}
           <div className="pb-1">
             <p className="text-neutral-800	 font-medium font-sans	text-xs  break-words	w-full	">
-               #{nft && nft.tokenId} 
-            
+              #{nft && nft.tokenId}
             </p>
             <h1 className="text-neutral-800		font-bold font-sans	text-lg break-words	w-full	">
               {" "}

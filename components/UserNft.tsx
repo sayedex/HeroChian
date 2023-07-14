@@ -51,7 +51,6 @@ const Nftcom = ({
               width={254}
               height={254}
               placeholderSrc={Layyerimg.src}
-              effect="blur"
               className="w-fit rounded-lg"
               src={ConvertLink(image_Src)}
             />

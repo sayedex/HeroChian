@@ -96,7 +96,6 @@ export const MainCollection = ({ Data, loading }: Props) => {
             ) : (
               <div className="relative w-fullbox-border md:pl-15 md:pr-15 md:pt-6	">
                 <LazyLoadImage
-                  effect="blur"
                   placeholderSrc="asasa"
                   src={meta && ConvertLink(meta?.image)}
                   className="rounded-xl  z-1 w-20 md:w-28	top-9	md:border-4"
