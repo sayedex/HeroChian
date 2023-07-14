@@ -166,14 +166,15 @@ const Nftinfo: React.FC<any> = ({ nft, metadataJson }: Props) => {
             href={`/Collections/${CollectionAddress && CollectionAddress}`}
             className="text-lg	"
           >
-            <a className=" text-sm font-semibold	">Back {name && name}</a>
+            <a className=" text-sm font-semibold  overflow-hidden max-w-[200px]	">Back {name && name}</a>
           </Link>
         </div>
 
         {/* tittle */}
         <div className="pl-5 pr-5 pb-3">
-          <h2 className="text-3xl font-extrabold pt-3	">{name && name}</h2>
-          <p className="font-medium	pt-3">Token id {tokenId && tokenId}</p>
+ 
+          <h2 className="text-3xl font-extrabold pt-3	break-words max-w-[300px]">       {name && name}</h2>
+          <p className="font-medium	pt-3 break-words max-w-[300px] ">Token id {tokenId && tokenId}</p>
         </div>
 
         {/* tittle */}
