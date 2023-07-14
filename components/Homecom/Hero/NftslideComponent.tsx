@@ -20,7 +20,7 @@ import { QNFT ,metadata} from '../../../typings';
 
 
 export const NftslideComponent = (nft:props) => {
-  console.log("heysayed0",nft);
+
   
   const isBigScreen = useMediaQuery({ query: '(min-width: 768px)' })
   const isSmallscreeen = useMediaQuery({ query: '(max-width: 768px)' })
